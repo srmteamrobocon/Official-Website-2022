@@ -11,6 +11,20 @@ body {
   background-image: url("bg.png");
 }
 
+.navbar{
+  /* background-color: rgba(0,0,0,0.5); */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a{
+  color: white !important;
+}
+
+.nav-item a:hover{
+  color: rgba(71, 179, 228, 1) !important;
+}
+
 .top-para{
   margin-bottom:0px !important;
 }
@@ -40,7 +54,7 @@ h2{
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 17px;
   color: #fff;
   font-weight: bold;
 }
@@ -91,7 +105,7 @@ color: #fff;
 
 .round{
   width:100px;
-  border-radius: 50px;
+  border-radius: 100px;
   margin-bottom: 20px;
   margin-bottom:30px;
 }
@@ -106,6 +120,13 @@ footer{
   font-family: 'Poppins', sans-serif;
 }
 
+#foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 a{
-cursor: pointer;
+  cursor: pointer;
 }
