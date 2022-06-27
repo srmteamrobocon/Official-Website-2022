@@ -6,12 +6,29 @@
 
 body{
     background-color: black;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .navbar{
     /* background-color: rgba(0,0,0,0.5); */
     color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#team i {
+    font-size: 26px;
+    color: #fff;
+}
+
+#team p {
+    color: #cecece;
 }
 
 .nav-item a{
