@@ -87,17 +87,34 @@ body {
   }
   
   i {
-    font-size: 260px;
+    font-size: 26px;
     color: #fff;
   }
   
-  .card .social-links{
+  .card .social-links,
+  .card .social-links-f,
+  .card .social-links-l,
+  .card .social-links-i{
     margin: 45px 0 0;
     font-size: 26px;
     color: #fff;
-    margin-bottom:1.0rem;
+    margin-bottom:1.0rem;  
   }
-  .card .social-links a{
+
+  .card .social-links-f a:hover{
+    color: rgb(66, 103, 178);
+  }
+  .card .social-links-l a:hover{
+    color: rgb(0, 160, 220);
+  }
+  .card .social-links-i a:hover{
+    color: rgb(193, 53, 132);
+  }
+
+  .card .social-links a,
+  .card .social-links-f a,
+  .card .social-links-l a,
+  .card .social-links-i a{
     color: #fff;
     padding: 1.5rem !important;
     
@@ -184,7 +201,7 @@ body {
     margin: auto;
     background-color: rgba(255, 255, 255, 0.06);
     border-radius: 8px;
-    border-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.06);
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -223,18 +240,18 @@ body {
 
 .card{
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.06);
-    border-radius: 4px;
+    border-radius: 8px;
     color: rgba(255, 255, 255, 0.06);
 }
 .card-container, .front, .back {
 	width: 100%;
 	height: 450px;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 .card .cover{
     height: 72px;
     overflow: hidden;
-    border-radius: 4px 4px 0 0;
+    border-radius: 8px 8px 0 0;
     
 }
 
