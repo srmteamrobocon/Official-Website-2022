@@ -154,3 +154,31 @@ footer{
 a{
   cursor: pointer;
 }
+
+#team .card .social,
+#team .card .social-f,
+#team .card .social-l,
+#team .card .social-i{
+  font-size: 26px;
+  color: #fff;
+  margin-bottom:0.1rem;  
+}
+
+#team .card .social-f i:hover{
+  color: rgb(66, 103, 178);
+}
+#team .card .social-l i:hover{
+  color: rgb(0, 160, 220);
+}
+#team .card .social-i i:hover{
+  color: rgb(193, 53, 132);
+}
+
+.card .social i,
+.card .social-f i,
+.card .social-l i,
+.card .social-i i{
+  color: #fff;
+  padding: 1.5rem !important;
+  
+}
