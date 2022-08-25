@@ -91,9 +91,12 @@ h3 {
 
 #team .card-body3 {
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40vh;
+  height: 320px;
+  
+  
 }
 
 #team .card {
