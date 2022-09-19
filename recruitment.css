@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  background-image: url("bg.png");
+ background-size: 100% 100%;
+}
+
+.navbar{
+  /* background-color: rgba(0,0,0,0.5); */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a{
+  color: white !important;
+}
+
+.nav-item a:hover{
+  color: rgba(71, 179, 228, 1) !important;
+}
+
+.top-para{
+  margin-bottom:0px !important;
+}
+
+.buttons{
+  margin-top: 10px;
+  margin-left:30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  height: 40px;
+  width: 300px;
+}
+
+h1 {
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+h2{
+  cursor: pointer;
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight:200;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.c-row {
+  margin:10px;
+}
+
+#team i {
+  font-size: 26px;
+  color: #fff;
+}
+
+#team p {
+  font-size: 16px;
+  line-height: -1px;
+  color: #cecece;
+}
+
+#team .card-body2{
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+
+.col1{
+  padding-top: 100px;
+}
+
+.ach-img{
+  padding-bottom: 20px;
+  padding-top: 35px;
+}
+
+#team .card-body3 {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+#team .card {
+background-color: rgba(255, 255, 255, 0.06);
+backdrop-filter: blur(20px);
+margin: auto;
+border-radius: 8px;
+border-color: rgba(255, 255, 255, 0.06);
+font-family: 'Poppins', sans-serif;
+color: #fff;
+}
+
+ /*border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(71, 179, 228);
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+*/
+
+#team .card:hover {
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(71, 179, 228,0.5);
+  
+  cursor: pointer;
+}
+
+#team .card:hover h3,
+#team .card:hover i {
+  color: #fff;
+}
+
+.round{
+  width:100px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  margin-bottom:30px;
+}
+
+.cds{
+    margin-bottom:20px;
+}
+
+footer{
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  font-family: 'Poppins', sans-serif;
+}
+
+#foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  cursor: pointer;
+}
+
+#team .card .social,
+#team .card .social-f,
+#team .card .social-l,
+#team .card .social-i{
+  font-size: 26px;
+  color: #fff;
+  margin-bottom:0.1rem;  
+}
+
+#team .card .social-f i:hover{
+  color: rgb(66, 103, 178);
+}
+#team .card .social-l i:hover{
+  color: rgb(0, 160, 220);
+}
+#team .card .social-i i:hover{
+  color: rgb(193, 53, 132);
+}
+
+.card .social i,
+.card .social-f i,
+.card .social-l i,
+.card .social-i i{
+  color: #fff;
+  padding: 1.5rem !important;
+  
+}
