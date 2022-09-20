@@ -94,6 +94,23 @@ h3 {
   padding-top: 35px;
 }
 
+#team .counter{
+  background-color:rgba(71, 179, 228,0.5);
+  backdrop-filter: blur(20px);
+  width: 6rem;
+  height: 6rem;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 6rem;
+  border-radius: 40%;
+  border:2px solid;
+  border-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 #team .card-body3 {
   text-align: center;
   padding-left: 40px;
