@@ -47,7 +47,7 @@ var members = [
         "Instagram": "https://www.instagram.com/yumishiina_arts/"
     },
     {
-        "Name": "HARIKRISHNAN M",
+        "Name": "Harikrishnan M",
         "Designation": "",
         "Facebook": "",
         "Linkedin": "https://www.linkedin.com/in/harikrishnan-manoj",

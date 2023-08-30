@@ -40,7 +40,7 @@ var members = [
         "Instagram": "https://instagram.com/krrish_verma__/"
     },
     {
-        "Name": "LIYA MARIA ALEX",
+        "Name": "Liya Maria Alex",
         "Designation": "Member",
         "Facebook": "",
         "Linkedin": "https://www.linkedin.com/in/liya-maria-alex-58817a24b/",
