@@ -1,22 +1,53 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     font-size: 14px;
     font-weight: 400;
 }
 
-.navbar{
+.navbar {
     /* background-color: rgba(0,0,0,0.5); */
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
-h3{
+.video-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Make video container full viewport height */
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1; /* Place the video container behind the content */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-wrap {
+        height: 100vh; /* Adjust the video container height for mobile */
+    }
+}
+
+h3 {
     font-size: 17px;
     color: #fff;
     font-weight: bold;
@@ -31,16 +62,16 @@ h3{
     color: #cecece;
 }
 
-.nav-item a{
+.nav-item a {
     color: white !important;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: rgba(71, 179, 228, 1) !important;
 }
 
 
-.arrow{
+.arrow {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -49,16 +80,16 @@ h3{
     width: 100%;
 }
 
-.arrow a{
+.arrow a {
     color: white !important;
 }
 
-.arrow a:hover{
+.arrow a:hover {
     color: rgba(71, 179, 228, 1) !important;
     transition: all 0.8s linear;
 }
 
-#restbody{
+#restbody {
     background-image: url("bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -71,11 +102,11 @@ h3{
     font-size: 2rem !important;
 }
 
-.counter-description{
+.counter-description {
     font-size: 1.5rem !important;
 }
 
-.focus{
+.focus {
     /* background-image: url("focusback.jpg"); */
     background-size: cover;
     background-position: center;
@@ -86,6 +117,7 @@ h3{
     text-align: center;
     color: white;
 }
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -93,7 +125,7 @@ h3{
     perspective: 1000px;
     padding: 15px;
 }
-  
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -101,21 +133,22 @@ h3{
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.5);
 }
-  
+
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-  
-.flip-card-front, .flip-card-back {
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-  
+
 .flip-card-front {
     background-image: url("flipfront.jpg");
     background-size: cover;
@@ -124,13 +157,13 @@ h3{
     align-items: center;
     justify-content: center;
 }
-  
-.flips{
+
+.flips {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-  
+
 .flip-card-back {
     background-image: url("flipback.jpg");
     background-size: cover;
@@ -142,27 +175,27 @@ h3{
     justify-content: center;
     transform: rotateY(180deg);
 }
-  
-.info{
+
+.info {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-  
-.focus h4{
+
+.focus h4 {
     font-size: 1.5rem;
     text-align: left;
     margin-left: 4.5rem;
 }
-  
-.focus h1{
+
+.focus h1 {
     font-size: 2.5rem;
     font-weight: bold;
     margin: 2rem 0 2rem 0;
 }
-  
-.focus h5{
+
+.focus h5 {
     font-weight: 300;
     margin: 1rem 0 2rem 0;
 }
@@ -194,17 +227,17 @@ h3{
     text-align: right;
 } */
 
-.mis img{
+.mis img {
     width: 90%;
     padding: 2rem 0 2rem 2rem;
 }
 
-.vis img{
+.vis img {
     width: 90%;
     padding: 2rem 2rem 2rem 0;
 }
 
-footer{
+footer {
     background-color: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(20px);
     font-family: 'Poppins', sans-serif;
@@ -212,25 +245,27 @@ footer{
 
 
 
-#foot{
+#foot {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-  
-a{
+
+a {
     cursor: pointer;
 }
 
 #container .video-container {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
 }
+
 #container .video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
