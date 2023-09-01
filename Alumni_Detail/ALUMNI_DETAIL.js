@@ -1,6 +1,8 @@
 // Update the Excel File
 // Go to the following website -"https://codebeautify.org/excel-to-json"
-// Convert Excel to JSON and save it as TEAM_DATA.json
+// Convert Excel to JSON and save it as ALUMNI_DATA.json
+// DO NOT CHANGE THIS SCRIPT
+// DO NOT CONVERT THE EXCEL TO JSON FROM ANY OTHER WEBSITE
 
 document.addEventListener("DOMContentLoaded", function() {
     fetch('Alumni_Detail/ALUMNI_DATA.json')
@@ -68,21 +70,39 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 <p class="profession">${alum.Domain}<br>${alum.Designation}</p>
                                                 <p class="about">${alum.About}</p>
                                                 <div class="d-flex flex-row justify-content-center">
-                                                    <div class="social-links-f text-center">
-                                                        <a href="${alum.Facebook}" target="_blank">
-                                                            <i class="fab fa-facebook"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="social-links-l text-center">
-                                                        <a href="${alum.Linkedin}" target="_blank">
-                                                            <i class="fab fa-linkedin"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="social-links-i text-center">
-                                                        <a href="${alum.Instragram}" target="_blank">
-                                                            <i class="fab fa-instagram"></i>
-                                                        </a>
-                                                    </div>
+                                                    ${alum.Facebook!==undefined?
+                                                        `<div class="social-links-f text-center">
+                                                            <a href="${alum.Facebook}" target="_blank">
+                                                                <i class="fab fa-facebook"></i>
+                                                            </a>
+                                                        </div>` :`<div class="social-links text-center">
+                                                            <a>
+                                                                <i class="fab fa-facebook"></i>
+                                                            </a>
+                                                        </div>`
+                                                    }
+                                                    ${alum.Linkedin!==undefined?
+                                                        `<div class="social-links-l text-center">
+                                                            <a href="${alum.Linkedin}" target="_blank">
+                                                                <i class="fab fa-linkedin"></i>
+                                                            </a>
+                                                        </div>` :`<div class="social-links text-center">
+                                                            <a>
+                                                                <i class="fab fa-linkedin"></i>
+                                                            </a>
+                                                        </div>`
+                                                    }
+                                                    ${alum.Instagram!==undefined?
+                                                        `<div class="social-links-i text-center">
+                                                            <a href="${alum.Instagram}" target="_blank">
+                                                                <i class="fab fa-instagram"></i>
+                                                            </a>
+                                                        </div>` :`<div class="social-links text-center">
+                                                            <a>
+                                                                <i class="fab fa-instagram"></i>
+                                                            </a>
+                                                        </div>`
+                                                    }
                                                 </div>
                                             </div>
                                             <div class="footer">

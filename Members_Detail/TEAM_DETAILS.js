@@ -1,6 +1,8 @@
 // Update the Excel File
 // Go to the following website -"https://codebeautify.org/excel-to-json"
 // Convert Excel to JSON and save it as TEAM_DATA.json
+// DO NOT CHANGE THIS SCRIPT
+// DO NOT CONVERT THE EXCEL TO JSON FROM ANY OTHER WEBSITE
 
 document.addEventListener("DOMContentLoaded", function() {
     fetch('Members_Detail/TEAM_DATA.json')
@@ -61,21 +63,39 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <h3>${member.Name}</h3>
                                     <p>${member.Designation}</p>
                                     <div class="d-flex flex-row justify-content-center" >
-                                        <div class="social-f">
-                                            <a href="${member.Facebook}" target="_blank">
-                                                <i class="fab fa-facebook"></i>
-                                            </a>
-                                        </div>
-                                        <div class="social-l">
-                                            <a href="${member.Linkedin}" target="_blank">
-                                                <i class="fab fa-linkedin"></i>
-                                            </a>
-                                        </div>
-                                        <div class="social-i">
-                                            <a href="${member.Instagram}" target="_blank">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                        </div>
+                                        ${member.Facebook!==undefined?
+                                            `<div class="social-f text-center">
+                                                <a href="${member.Facebook}" target="_blank">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </div>` :`<div class="social text-center">
+                                                <a>
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </div>`
+                                        }
+                                        ${member.Linkedin!==undefined?
+                                            `<div class="social-l text-center">
+                                                <a href="${member.Linkedin}" target="_blank">
+                                                    <i class="fab fa-linkedin"></i>
+                                                </a>
+                                            </div>` :`<div class="social text-center">
+                                                <a>
+                                                    <i class="fab fa-linkedin"></i>
+                                                </a>
+                                            </div>`
+                                        }
+                                        ${member.Instagram!==undefined?
+                                            `<div class="social-i text-center">
+                                                <a href="${member.Instagram}" target="_blank">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </div>` :`<div class="social text-center">
+                                                <a>
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </div>`
+                                        }
                                     </div>
                                 </div>
                             </div>`;
