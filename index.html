@@ -115,17 +115,14 @@
     </div>
 
     <!-- LOGO VIDEO START -->
-    <div class="row top-para justify-content-center">
-        <div class="col-sm-9">
-            <div class="video-wrap">
-                <div class="video-container justify-content-center">
-                    <video autoplay muted loop width="100%">
-                        <source src="Logo_Reveal.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
+    <div class="video-wrap">
+        <div class="video-container">
+            <video autoplay muted loop style="height: 100vh; width: auto;">
+                <source src="Logo_Reveal.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
+
     <!-- <div class="arrow" style="color: white;">
         <a href="#Blog"><i class="fa-solid fa-angles-down fa-10x"></i></a>
     </div> -->
@@ -140,7 +137,7 @@
                     <h4 class="counter-description" style="text-align: center;"> <span
                             style="color:white; display: flex; justify-content: center;">
                             <h1 class="display-3 counter"
-                                style="border-radius: 50%; border: 1px solid white; width: 5rem;">
+                                style=""">
                                 <span id="value">50</span>+
                             </h1>
                         </span>TEAM MEMBERS</h4>
@@ -149,7 +146,7 @@
                     <h4 class="counter-description" style="text-align: center;"> <span
                             style="color:white; display: flex; justify-content: center;">
                             <h1 class="display-3 counter"
-                                style="border-radius: 50%; border: 1px solid white; width: 5rem;"><span
+                                style=""><span
                                     id="value1">20</span>+</h1>
                         </span>ROBOTS</h4>
                 </div>
@@ -157,15 +154,15 @@
                     <h4 class="counter-description" style="text-align: center;"> <span
                             style="color:white; display: flex; justify-content: center;">
                             <h1 class="display-3 counter"
-                                style="border-radius: 50%; border: 1px solid white; width: 5rem;"><span
-                                    id="value2">7</span>+</h1>
+                                style=""><span
+                                    id="value2">15</span>+</h1>
                         </span>PARTICIPATIONS</h4>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <h4 class="counter-description" style="text-align: center;"> <span
                             style="color:white; display: flex; justify-content: center;">
                             <h1 class="display-3 counter"
-                                style="border-radius: 50%; border: 1px solid white; width: 5rem;"><span
+                                style=""><span
                                     id="value3">100</span>+</h1>
                         </span>ALUMNI</h4>
                 </div>
@@ -353,7 +350,7 @@
             <div class="footer-middle" style="padding-top:2rem; overflow:hidden; text-align: center;">
                 <div class="row" id="foot">
                     <div class="col-md-3 col-sm-6">
-                        <img src="Logo/logo_gif.gif" alt="ROBOCON LOGO" style="width:15rem;">
+                        <img src="Logo/logo_gif.gif" alt="ROBOCON LOGO" style="width:12rem;">
                     </div>
                     
                     <div class="col-md-6 col-sm-6">
@@ -393,7 +390,7 @@
                     
 
                     <div class="col-md-3 col-sm-6">
-                        <img src="Logo/collegelogo.png" alt="SRM LOGO" style="width:15rem;">
+                        <img src="Logo/collegelogo.png" alt="SRM LOGO" style="width:12rem;">
                         <!-- <div class=" social"
                             style="display: flex; flex-direction: row; justify-content: space-between; padding: 0;">
                             <a><i class="fab fa-facebook" style="font-size: 1.5rem;"></i></a>
@@ -443,7 +440,7 @@
         const obj1 = document.getElementById("value1");
         animateValue(obj1, 0, 20, 2000);
         const obj2 = document.getElementById("value2");
-        animateValue(obj2, 0, 7, 2000);
+        animateValue(obj2, 0, 15, 2000);
         const obj3 = document.getElementById("value3");
         animateValue(obj3, 0, 100, 2000);
     </script>

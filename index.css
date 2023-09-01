@@ -15,6 +15,37 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+.video-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Make video container full viewport height */
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1; /* Place the video container behind the content */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-wrap {
+        height: 100vh; /* Adjust the video container height for mobile */
+    }
+}
+
 
 h3{
     font-size: 17px;
