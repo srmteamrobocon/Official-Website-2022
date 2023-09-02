@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     sectionHeader.id = section.slice(1,-1);
                     sectionHeader.innerHTML = `
                         <div class="col">
-                            <h2>${section.slice(1,-1)}</h2>
+                            <h2>Batch of ${section.slice(1,-1)}</h2>
                         </div>
                     `;
 
