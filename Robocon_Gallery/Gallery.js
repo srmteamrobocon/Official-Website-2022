@@ -2,7 +2,7 @@
 // And then update this file by increasing the variable numImages
 // This script will also shuffle the images everytime
 
-var numImages = 52;
+var numImages = 120;
 var galleryContainer = document.getElementById('Robocon_Gallery');
 var ulElement = document.createElement('ul');
 ulElement.className = 'gallery';
@@ -27,7 +27,7 @@ imagePaths.forEach(function (imagePath, index) {
     var liElement = document.createElement('li');
     var imgElement = document.createElement('img');
     imgElement.src = 'Robocon_Gallery/Robocon_Images_' + imagePath  + '.jpg';
-    imgElement.alt = 'Image ' + (index + 1);
+    imgElement.alt = 'Image ' + (imagePath);
     liElement.appendChild(imgElement);
     ulElement.appendChild(liElement);
 });
