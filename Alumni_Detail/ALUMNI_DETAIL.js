@@ -1,8 +1,10 @@
-// Update the Excel File
+// Update the Excel File in the correct order
+// Go to the following site - "https://www.iloveimg.com/resize-image"
+// Resize the image in resolution of 200 x 200 with file name as name of the person
 // Go to the following website -"https://codebeautify.org/excel-to-json"
 // Convert Excel to JSON and save it as ALUMNI_DATA.json
 // DO NOT CHANGE THIS SCRIPT
-// DO NOT CONVERT THE EXCEL TO JSON FROM ANY OTHER WEBSITE
+// DO NOT CONVERT EXCEL TO JSON FROM ANY OTHER WEBSITE
 
 document.addEventListener("DOMContentLoaded", function() {
     fetch('Alumni_Detail/ALUMNI_DATA.json')
