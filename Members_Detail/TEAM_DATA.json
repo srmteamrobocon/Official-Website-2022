@@ -76,10 +76,6 @@
       "Instagram": "https://instagram.com/anshul_kawarey?igshid=OGQ5ZDc2ODk2ZA==/"
     },
     {
-      "Name": "Sakshi K",
-      "Designation": "Member"
-    },
-    {
       "Name": "Shohon Saha",
       "Designation": "Member",
       "Instagram": "https://instagram.com/earths_moon_?igshid=ZDdkNTZiNTM=/"
@@ -115,12 +111,6 @@
       "Designation": "Member",
       "Linkedin": "https://www.linkedin.com/in/daniel-biju/",
       "Instagram": "https://instagram.com/daaaaanu?igshid=MjEwN2IyYWYwYw==/"
-    },
-    {
-      "Name": "Divjot Singh Manchanda",
-      "Designation": "Member",
-      "Linkedin": "https://www.linkedin.com/in/divjot-singh-manchanda-910643251/",
-      "Instagram": "www.instagram.com/djsmanchanda/"
     },
     {
       "Name": "Krrish Verma",
@@ -197,6 +187,10 @@
       "Designation": "Member",
       "Linkedin": "https://www.linkedin.com/in/swetanshu-agrawal/",
       "Instagram": "https://www.instagram.com/swetanshu.a/"
+    },
+    {
+      "Name": "Sakshi K",
+      "Designation": "Member"
     },
     {
       "Name": "Harshita",
